@@ -16,15 +16,17 @@
     "url": "https://github.com/MrRiddle/data-maker/issues"
   },
   "homepage": "https://github.com/MrRiddle/data-maker#readme",
-  "devDependencies": {
+  "dependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.0",
     "babel-polyfill": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {
     "chai": "^4.1.2",
-    "eslint": "^4.6.1",
+    "eslint": "^4.7.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-airbnb-base": "^12.0.0",
     "eslint-plugin-import": "^2.7.0",

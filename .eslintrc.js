@@ -3,6 +3,7 @@ module.exports = {
     "rules": {
         "linebreak-style": "off",
         "indent": ["error", 4],
-        "no-underscore-dangle": "off"
+        "no-underscore-dangle": "off",
+        "no-console": "off"
     }
 };
