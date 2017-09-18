@@ -4,6 +4,7 @@
   "description": "Try to generate random data.",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
