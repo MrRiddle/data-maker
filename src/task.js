@@ -25,7 +25,7 @@ export default class Task {
         writerStream.on('finish', () => {
             const FINISH_POINT = Date.now();
             console.log(`Task ${name} finish.`);
-            console.log(`Task ${name} costs ${FINISH_POINT - START_POINT} millsecounds.`);
+            console.log(`Task ${name} costs ${FINISH_POINT - START_POINT} millseconds.`);
         });
 
         for (let i = 0; i < count; i += 1) {

@@ -5,13 +5,13 @@ import Task from './task';
 
 const fromDate = new Date('2017-09-10 00:00:00');
 const toDate = new Date('2017-09-16 23:59:59');
-const SPEED_DATA_COUNT = 1000000;
-const PAGE_DATA_COUNT = 1000;
-const APP_DATA_COUNT = 100;
+const SPEED_DATA_COUNT = 10000000;
+const PAGE_DATA_COUNT = 100;
+const APP_DATA_COUNT = 10;
 
 const speedDataTask = new Task('generate speed data', './output/speed.txt', () => {
     const pid = Schema.Integer(1, PAGE_DATA_COUNT);
-    const time = moment(Schema.Date(fromDate, toDate)).format('YYYY-MM-DD HH:mm:ss.SSS');
+    const time = moment(Schema.Date(fromDate, toDate)).format('YYYY-MM-DD HH:mm:ss');
     const ip = [Schema.Integer(0, 256), Schema.Integer(0, 256), Schema.Integer(0, 256), Schema.Integer(0, 256)].join('.');
     const machineType = Schema.Enum(['iOS', 'Android', 'PC']);
     const networkType = Schema.Enum(['2G', '3G', '4G', 'Wi-Fi']);
