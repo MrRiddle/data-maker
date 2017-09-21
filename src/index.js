@@ -3,8 +3,8 @@ import moment from 'moment';
 import Schema from './schema';
 import Task from './task';
 
-const fromDate = new Date('2017-09-10 00:00:00');
-const toDate = new Date('2017-09-16 23:59:59');
+const fromDate = new Date('2017-09-21 00:00:00');
+const toDate = new Date('2017-09-21 23:59:59');
 const SPEED_DATA_COUNT = 10000000;
 const PAGE_DATA_COUNT = 100;
 const APP_DATA_COUNT = 10;
